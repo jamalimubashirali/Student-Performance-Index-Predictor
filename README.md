@@ -109,6 +109,11 @@ The application includes 16 trained machine learning models:
 
 2. **Install required packages**
    ```bash
+   pip install -r requirements.txt
+   ```
+   
+   Or install manually:
+   ```bash
    pip install streamlit pandas numpy scikit-learn joblib
    ```
 
@@ -124,7 +129,7 @@ The application includes 16 trained machine learning models:
 
 ## 💻 Usage
 
-### Running the Application
+### Local Development
 
 1. **Start the Streamlit app**
    ```bash
@@ -133,6 +138,18 @@ The application includes 16 trained machine learning models:
 
 2. **Open your browser**
    Navigate to `http://localhost:8501`
+
+### Deployment to Streamlit Cloud
+
+1. **Push your code to GitHub** (make sure to include `requirements.txt`)
+2. **Go to [Streamlit Cloud](https://streamlit.io/cloud)**
+3. **Connect your GitHub repository**
+4. **Deploy with these settings:**
+   - **Main file path**: `app.py`
+   - **Requirements file**: `requirements.txt` (automatically detected)
+   - **Python version**: 3.8+ (recommended)
+
+**Important**: Ensure all `.joblib` files are committed to your repository as they contain the trained models.
 
 ### Using the Interface
 
