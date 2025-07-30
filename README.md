@@ -2,6 +2,8 @@
 
 A comprehensive machine learning web application that predicts student academic performance using multiple ML algorithms. Built with Streamlit and powered by 16 different trained models.
 
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20App-brightgreen?style=for-the-badge)](https://student-performance-index-predictor-project.streamlit.app/)
+
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/streamlit-v1.28+-red.svg)
 ![Scikit-learn](https://img.shields.io/badge/scikit--learn-v1.3+-orange.svg)
@@ -9,6 +11,7 @@ A comprehensive machine learning web application that predicts student academic 
 
 ## 📋 Table of Contents
 
+- [🚀 Live Demo](#-live-demo)
 - [Overview](#overview)
 - [Features](#features)
 - [Dataset](#dataset)
@@ -19,6 +22,12 @@ A comprehensive machine learning web application that predicts student academic 
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
+
+## 🚀 Live Demo
+
+🌟 **Try the app live**: [Student Performance Index Predictor](https://student-performance-index-predictor-project.streamlit.app/)
+
+Experience all features of the application without any setup required!
 
 ## 🎯 Overview
 
@@ -140,6 +149,10 @@ The application includes 16 trained machine learning models:
    Navigate to `http://localhost:8501`
 
 ### Deployment to Streamlit Cloud
+
+✅ **Live Demo Available**: [https://student-performance-index-predictor-project.streamlit.app/](https://student-performance-index-predictor-project.streamlit.app/)
+
+**To deploy your own version:**
 
 1. **Push your code to GitHub** (make sure to include `requirements.txt`)
 2. **Go to [Streamlit Cloud](https://streamlit.io/cloud)**
@@ -288,9 +301,6 @@ joblib>=1.3.0
    ```
 6. **Create a Pull Request**
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -300,8 +310,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
+**👤 Developer**: [Mubashir Ali](https://github.com/jamalimubashirali)
+
 For questions, suggestions, or issues, please:
 - Create an issue in this repository
+- Connect with me on GitHub: [@jamalimubashirali](https://github.com/jamalimubashirali)
 
 ---
 
